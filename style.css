@@ -1,0 +1,34 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card {
+    min-width: 100px;
+    min-height: 100px;
+    border: 1px solid gray;
+    margin: 8px 8px 0 0;
+    cursor: pointer;
+    background-size: cover;
+}
+
+#board {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#controlPanel {
+    display: flex;
+    font-size: 20px;
+}
+
+#scoreOutput {
+    margin-left: 20px;
+    font-weight: bold;
+}

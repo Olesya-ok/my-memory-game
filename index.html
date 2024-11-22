@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Game</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/snow.min.css" rel="stylesheet">
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/Snow.min.js"></script>
+<script>
+  new Snow();
+</script>
+
+
+<div id="controlPanel">
+  <button id="startGame">Нова гра</button>
+  <div id="scoreOutput">
+    Спроба: <span id="atemptNumOutput"></span>
+  </div>
+</div>
+<div id="board">
+
+</div>
+<script src="card.js"></script> <!-- відображення кожної картки рубахою чи зображенням до гори-->
+<script src="deck.js"></script>
+<script src="game-manager.js"></script>
+<script src="main.js"></script>
+</body>
+
+</html>
